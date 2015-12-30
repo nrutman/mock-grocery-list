@@ -1,0 +1,26 @@
+{
+  "name": "mock-grocery-list",
+  "version": "1.0.0",
+  "description": "A mock Angular application that mimics a grocery list. This project is intended as an assessment tool and exercise when talking with other developers, and is not a legitimate application.",
+  "main": "srv/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrutman/mock-grocery-list.git"
+  },
+  "author": "Nathan Rutman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrutman/mock-grocery-list/issues"
+  },
+  "homepage": "https://github.com/nrutman/mock-grocery-list",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
