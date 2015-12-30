@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A mock Angular application that mimics a grocery list. This project is intended as an assessment tool and exercise when talking with other developers, and is not a legitimate application.",
   "scripts": {
-    "start": "node_modules/http-server/bin/http-server"
+    "build": "node_modules/gulp/bin/gulp.js",
+    "serve": "node_modules/http-server/bin/http-server",
+    "start": "npm install && npm run build && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -12,11 +14,15 @@
   "author": "Nathan Rutman",
   "homepage": "https://github.com/nrutman/mock-grocery-list",
   "devDependencies": {
+    "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
     "gulp-ng-annotate": "^1.1.0",
     "gulp-ng-html2js": "^0.2.0",
     "gulp-sass": "^2.1.1",
-    "http-server": "^0.8.5"
+    "gulp-uglify": "^1.5.1",
+    "http-server": "^0.8.5",
+    "jshint": "^2.8.0"
   }
 }
