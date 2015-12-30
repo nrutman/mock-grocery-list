@@ -3,6 +3,8 @@
 
     angular
         .module('nr.grocery', [
-            'nr.grocery.templates'
+            'nr.grocery.templates',
+            'ui.router',
+            'ui.bootstrap'
         ]);
-})()
+})();
