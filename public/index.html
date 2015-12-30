@@ -19,9 +19,10 @@
     <script src="build/app.min.js"></script>
 
 </head>
-<body>
+<body ng-app="nr.grocery">
+    <ng-include src="'app/partials/nav.html'"></ng-include>
 
-    <div class="container" ng-app="nr.grocery">
+    <div class="container">
         <ui-view></ui-view>
     </div>
 
