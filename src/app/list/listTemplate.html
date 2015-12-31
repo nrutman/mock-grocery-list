@@ -20,22 +20,12 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td class="item">
-                Fruit Punch
-            </td>
-            <td class="qty">
-                4
-            </td>
-            <td class="aisle">
-                10A
-            </td>
-            <td class="price">
-                $2.00
-            </td>
-            <td class="total">
-                $8.00
-            </td>
+        <tr ng-repeat="item in listCtrl.getListItems() track by $index">
+            <td class="item" ng-bind="item.description"></td>
+            <td class="qty" ng-bind="item.quantity"></td>
+            <td class="aisle" ng-bind="item.aisle"></td>
+            <td class="price" ng-bind="item.price | number:2"></td>
+            <td class="total" ng-bind="item.total | number:2"></td>
         </tr>
     </tbody>
     <tfoot>
