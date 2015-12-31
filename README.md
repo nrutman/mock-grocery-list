@@ -35,3 +35,16 @@ Upon installation, the grocery list is completely static. Enable a dynamic list 
 2. The ability to add as many rows as the user desires.
 3. The ability to delete a row.
 4. (Bonus!) The ability to rearrange rows via drag-and-drop.
+
+### 3. Allow Custom List Title
+Give the user some control to update the list title (which currently now displays as `My List`). It should be easy and intuitive.
+
+### 4. Write Test Coverage
+*** NOTE: Karma needs to be included in the package ***
+Write unit tests for controllers and services to verify that they are working properly.
+
+### 5. Hook Up New States
+Create the state and basic scaffolding for the `Past Lists` link in the navigation bar.
+
+### 6. Discuss Backend Model
+This project has no backend or database to drive data, sessions/authentication, etc. Discuss how such an API could exist: what endpoints and data tables would be needed, etc.
